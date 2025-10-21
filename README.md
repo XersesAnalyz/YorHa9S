@@ -22,14 +22,13 @@
 - ❌ Mengakses, menyerang, atau mengeksploitasi sistem tanpa izin
 - ❌ Menyebarkan exploit/payload ke pihak ketiga tanpa otorisasi
 
-> Penyalahgunaan alat ini dapat menyebabkan tuntutan pidana dan/atau perdata. Penulis dan kontributor **TIDAK BERTANGGUNG JAWAB** atas tindakan ilegal yang dilakukan pengguna. Jika ragu, jangan gunakan.
+> Penyalahgunaan alat ini dapat menyebabkan tuntutan pidana dan/atau perdata. Devloper **TIDAK BERTANGGUNG JAWAB** atas tindakan ilegal yang dilakukan pengguna. Jika ragu, jangan gunakan.
 
 ---
 
 ## 📌 Deskripsi Singkat
 YorHa9S adalah toolkit pengujian keamanan berbasis pembelajaran mesin yang membantu discovery, fingerprinting, dan penilaian kerentanan pada target **dengan izin**. Tool ini menyediakan modul scanning, reporting, dan monitoring untuk keperluan riset keamanan.
 
-## 🎯 Features
 ## 🎯 Features
 
 ### 🤖 Smart Detection
