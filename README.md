@@ -1,44 +1,62 @@
-# YorHa9S
+# 🕵️ YorHa9S — Security Scanner
+### Android Unit 9S - Advanced Security Assessment Tool
 
-**Deskripsi Singkat**  
-YorHa9S adalah tool pembantu untuk *security testing* dan *penetration analysis* yang menggunakan pembelajaran mesin (*machine learning*) untuk membantu mendeteksi pola keamanan tertentu pada sistem **yang diizinkan**.
-
-> ⚠️ **PERINGATAN KERAS — BACA DENGAN SEKSAMA**  
-> Tool ini sangat berbahaya jika digunakan secara sembarangan.  
-> Dilarang keras menggunakan YorHa9S untuk menguji, mengeksploitasi, atau mengakses sistem tanpa izin tertulis dari pemilik sistem.  
->  
-> **Segala bentuk penyalahgunaan alat ini dapat melanggar hukum dan berakibat pidana.**  
->  
-> Gunakan hanya untuk:
-> - Pengujian keamanan pada sistem milik sendiri.  
-> - Lingkungan lab atau sandbox pribadi.  
-> - Program *bug bounty* yang memberikan izin eksplisit.  
-
-## 🚀 Cara Instalasi
-```bash
-# (opsional) buat virtual environment
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
-## ▶️ Menjalankan
-```bash
-python3 YorHa9S.py
-```
-
-## 📦 Dependensi
-Lihat file `requirements.txt`.
-
-## 🔒 Catatan Keamanan
-- Jangan commit file berisi password, token, atau API key.  
-- Gunakan `.env` (dan sudah otomatis diabaikan lewat `.gitignore`).  
-- Ikuti prinsip *Responsible Disclosure* jika menemukan bug/kerentanan.  
-
-## 📜 Lisensi
-Proyek ini berada di bawah lisensi **MIT License** — lihat file `LICENSE`.
+![YorHa](https://img.shields.io/badge/YoRHa-9S-blue)
+![Python](https://img.shields.io/badge/Python-3.8%2B-green)
+![Security](https://img.shields.io/badge/Security-Scanner-red)
+![Platform](https://img.shields.io/badge/Platform-Termux%20%7C%20Linux%20%7C%20Windows-lightgrey)
 
 ---
 
-**© 2025 XersesAnalyz**  
-Gunakan dengan bijak dan bertanggung jawab.
+## ⚠️ LEGAL NOTICE — BACA SAMPAI HABIS
+**SANGAT PENTING:** Alat ini dibuat untuk tujuan **pengujian keamanan yang SAH** (authorized security testing), penelitian, dan pendidikan.
+
+**HANYA untuk:**
+- ✅ Testing website / sistem milik sendiri
+- ✅ Penetration testing dengan IZIN TERTULIS
+- ✅ Lingkungan lab / sandbox pribadi
+- ✅ Program bug bounty yang memberikan otorisasi
+
+**DILARANG KERAS untuk:**
+- ❌ Aktivitas ilegal atau merugikan pihak lain
+- ❌ Mengakses, menyerang, atau mengeksploitasi sistem tanpa izin
+- ❌ Menyebarkan exploit/payload ke pihak ketiga tanpa otorisasi
+
+> Penyalahgunaan alat ini dapat menyebabkan tuntutan pidana dan/atau perdata. Penulis dan kontributor **TIDAK BERTANGGUNG JAWAB** atas tindakan ilegal yang dilakukan pengguna. Jika ragu, jangan gunakan.
+
+---
+
+## 📌 Deskripsi Singkat
+YorHa9S adalah toolkit pengujian keamanan berbasis pembelajaran mesin yang membantu discovery, fingerprinting, dan penilaian kerentanan pada target **dengan izin**. Tool ini menyediakan modul scanning, reporting, dan monitoring untuk keperluan riset keamanan.
+
+## 🎯 Features
+- **Port Scanning** — Deteksi port terbuka
+- **Vulnerability Assessment** — Indikator untuk SQLi, XSS, Security Headers
+- **WAF Bypass** — Advanced evasion techniques (for research)
+- **Stealth Scanning** — Anti-detection & configurable delays
+- **Service Detection** — Identifikasi layanan & versi
+- **Endpoint Discovery** — Temukan path tersembunyi
+- **Comprehensive Reporting** — Laporan dan log terstruktur
+
+> Catatan: Beberapa fitur dapat menghasilkan traffic tinggi — gunakan hanya pada target yang diizinkan.
+
+---
+
+# YorHa9S
+> — **Hanya untuk testing dengan IZIN.**
+
+---
+
+## 📦 Instalasi
+
+### Termux (Android)
+```bash
+pkg update && pkg upgrade -y
+pkg install python git nano openssh -y
+# jika belum punya repo lokal: clone dari GitHub
+git clone https://github.com/XersesAnalyz/YorHa9S.git
+cd YorHa9S
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python3 YorHa9S.py
