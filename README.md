@@ -30,13 +30,28 @@
 YorHa9S adalah toolkit pengujian keamanan berbasis pembelajaran mesin yang membantu discovery, fingerprinting, dan penilaian kerentanan pada target **dengan izin**. Tool ini menyediakan modul scanning, reporting, dan monitoring untuk keperluan riset keamanan.
 
 ## 🎯 Features
-- **Port Scanning** — Deteksi port terbuka
-- **Vulnerability Assessment** — Indikator untuk SQLi, XSS, Security Headers
-- **WAF Bypass** — Advanced evasion techniques (for research)
-- **Stealth Scanning** — Anti-detection & configurable delays
-- **Service Detection** — Identifikasi layanan & versi
-- **Endpoint Discovery** — Temukan path tersembunyi
-- **Comprehensive Reporting** — Laporan dan log terstruktur
+## 🎯 Features
+
+### 🤖 Smart Detection
+- AI-powered vulnerability assessment
+- Advanced false positive filtering
+- Context-aware security analysis
+
+### 🛡️ Stealth Technology  
+- Enterprise WAF evasion capabilities
+- Advanced anti-detection mechanisms
+- Realistic traffic simulation
+
+### 🔍 Comprehensive Scanning
+- Web application vulnerability assessment
+- API security testing
+- Infrastructure security audit
+- Automated penetration testing
+
+### 📊 Professional Output
+- Real-time results with confidence scoring
+- Color-coded severity classification  
+- Detailed logging and reporting
 
 > Catatan: Beberapa fitur dapat menghasilkan traffic tinggi — gunakan hanya pada target yang diizinkan.
 
