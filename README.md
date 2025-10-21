@@ -51,12 +51,31 @@ YorHa9S adalah toolkit pengujian keamanan berbasis pembelajaran mesin yang memba
 
 ### Termux (Android)
 ```bash
-pkg update && pkg upgrade -y
-pkg install python git nano openssh -y
-# jika belum punya repo lokal: clone dari GitHub
+pkg update && pkg upgrade
+pkg install python git
 git clone https://github.com/XersesAnalyz/YorHa9S.git
 cd YorHa9S
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+pip3 install requests urllib3
 python3 YorHa9S.py
+```
+
+### 🛠️ Linux / Mac
+```bash
+sudo apt update && sudo apt install python3 python3-pip git
+git clone https://github.com/XersesAnalyz/YorHa9S.git
+cd YorHa9S
+pip3 install requests urllib3
+python3 YorHa9S.py
+```
+
+### 🪟 Windows
+```powershell
+# Install Python 3.8+ dari python.org
+# Install Git dari git-scm.com
+git clone https://github.com/XersesAnalyz/YorHa9S.git
+cd YorHa9S
+pip install requests urllib3
+python YorHa9S.py
+```
+
+---
