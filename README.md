@@ -27,7 +27,7 @@
 ---
 
 ## 📌 Deskripsi Singkat
-YorHa9S adalah toolkit pengujian keamanan berbasis pembelajaran mesin yang membantu discovery, fingerprinting, dan penilaian kerentanan pada target **dengan izin**. Tool ini menyediakan modul scanning, reporting, dan monitoring untuk keperluan riset keamanan.
+YorHa9S adalah toolkit pengujian keamanan berbasis Machine Learning yang membantu discovery, fingerprinting, dan penilaian kerentanan pada target **dengan izin**. Tool ini menyediakan modul scanning, reporting, dan monitoring untuk keperluan riset keamanan.
 
 ## 🎯 Features
 
